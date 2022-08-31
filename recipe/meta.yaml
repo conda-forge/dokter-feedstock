@@ -1,5 +1,5 @@
 {% set name = "dokter" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dokter-{{ version }}.tar.gz
-  sha256: 9ce8006d43f600f4fd33d8d60351568149b55b4373662a0e0aa387ee5bb2c19e
+  sha256: 8ade149c3395faa545bc6b906b979e9b67f16966e34418af9ec69c6ddfe46c6a
 
 build:
   entry_points:
