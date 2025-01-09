@@ -20,7 +20,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools
+    - setuptools <66
   run:
     - python >={{ python_min }}
     - shellcheck
